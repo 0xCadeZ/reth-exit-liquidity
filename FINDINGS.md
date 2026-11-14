@@ -61,7 +61,8 @@ Full detail in `sizing/FINDINGS.md`. The long spell was an inflow drought: ETH i
 month in May and June to 3,400-5,000 from July to September, against estimated exit demand of 10,000-12,000. From June
 to September nothing reached the 1% cap, so a higher target alone would have changed nothing. Covering such a drought
 needs ETH held in advance: about 5% of rETH value would have paid every exit on roughly 9 days in 10, at about 11 bps of
-holder yield a year. Saturn 2's queue without forced exits would have left a long tail of waits.
+holder yield a year. Under Saturn 2, forced exits above a 120 ETH shortfall bound the wait (about 5 days by RPIP-71's
+estimate); the open question there is how often validators get exited for each buffer size.
 
 ## Against rival staking tokens and earlier work
 
