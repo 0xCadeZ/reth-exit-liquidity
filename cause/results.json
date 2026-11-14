@@ -1,0 +1,176 @@
+{
+ "events": 233154,
+ "txs": 45071,
+ "inflow_eth_by_class": {
+  "node": 92257.84277765828,
+  "mint": 14899.376952760893,
+  "recycled": 6040.283411439029
+ },
+ "burn_eth": 49968.86404812575,
+ "forwarded_note": "excess above 1% forwarded without event",
+ "recon_daily_before_anchor": {
+  "n": 197,
+  "max_abs_eth": 3.4494613828901493,
+  "median_abs_eth": 0.6432080743619508,
+  "days_within_0_01_eth": 20,
+  "worst": [
+   [
+    "2026-10-24",
+    3.4494613828901493
+   ],
+   [
+    "2026-06-23",
+    0.6432080743645656
+   ],
+   [
+    "2026-06-30",
+    0.6432080743643382
+   ],
+   [
+    "2026-06-24",
+    0.643208074362974
+   ],
+   [
+    "2026-10-13",
+    0.6432080743625956
+   ]
+  ]
+ },
+ "recon_random_blocks": {
+  "n": 60,
+  "max_abs_eth": 24.00000000000091,
+  "median_abs_eth": 3.077384821829626e-15,
+  "within_0_01": 52,
+  "within_1": 55
+ },
+ "refill_candidates": 336,
+ "refills_confirmed": 35,
+ "refills": {
+  "all": {
+   "n": 35,
+   "n_with_swaps_both_sides": 35,
+   "median_prem_change_bps": 1.5707064812764404,
+   "share_prem_up": 0.8,
+   "median_prem_pre": -6.24392192925205,
+   "median_prem_post": -3.571940521647221,
+   "n_100eth_plus": 2,
+   "share_100eth_mint_up_24h": 1.0,
+   "median_mint_24h_before_100eth": 106.77260599122383,
+   "median_mint_24h_after_100eth": 127.98963094990813,
+   "share_100eth_mint_up_7d": 0.0,
+   "median_hours_until_empty": 0.003353828986485799,
+   "share_empty_within_24h": 0.8857142857142857,
+   "arb_share_of_drain": 0.0756450247496586
+  },
+  "exogenous": {
+   "n": 26,
+   "n_with_swaps_both_sides": 26,
+   "median_prem_change_bps": 3.2118726971941394,
+   "share_prem_up": 0.8076923076923077,
+   "median_prem_pre": -15.372691744509059,
+   "median_prem_post": -8.294528694495485,
+   "n_100eth_plus": 1,
+   "share_100eth_mint_up_24h": 1.0,
+   "median_mint_24h_before_100eth": 4.562935538990132,
+   "median_mint_24h_after_100eth": 21.525140815976556,
+   "share_100eth_mint_up_7d": 0.0,
+   "median_hours_until_empty": 0.0033482143614027233,
+   "share_empty_within_24h": 0.8846153846153846,
+   "arb_share_of_drain": 0.07213884320722627
+  },
+  "mint_driven": {
+   "n": 9,
+   "n_with_swaps_both_sides": 9,
+   "median_prem_change_bps": 0.44998783439831325,
+   "share_prem_up": 0.7777777777777778,
+   "median_prem_pre": -2.5635447915894893,
+   "median_prem_post": -1.1095243084502382,
+   "n_100eth_plus": 1,
+   "share_100eth_mint_up_24h": 1.0,
+   "median_mint_24h_before_100eth": 208.98227644345752,
+   "median_mint_24h_after_100eth": 234.4541210838397,
+   "share_100eth_mint_up_7d": 0.0,
+   "median_hours_until_empty": 1.3741989411910376,
+   "share_empty_within_24h": 0.8888888888888888,
+   "arb_share_of_drain": 0.13090427715792963
+  },
+  "by_class": {
+   "mint": 9,
+   "node": 26
+  }
+ },
+ "P6_pass": false,
+ "P7_pass": true,
+ "P8": {
+  "eth_in_under_discount": 10683.711711323907,
+  "share_burned_within_24h": 0.9999999999999947,
+  "arb_share_of_those_burns": 0.9462274784158428
+ },
+ "P8_pass": true,
+ "P9_mint_next24_on_funded_and_mint_prev24": {
+  "n": 4654,
+  "beta": [
+   16.702141075200082,
+   82.75190949992171,
+   0.20544163169065977
+  ],
+  "t_nw": [
+   4.722970013820508,
+   4.6876797527962974,
+   1.8542934203149068
+  ]
+ },
+ "P9b_with_premium_control": {
+  "n": 4654,
+  "beta": [
+   31.68637137068692,
+   66.96650577900927,
+   0.20350428395819226,
+   0.696415608454566
+  ],
+  "t_nw": [
+   3.274315344125868,
+   3.768332850583601,
+   1.836438425593945,
+   1.6615577515810784
+  ]
+ },
+ "P9_pass": true,
+ "share_hours_funded": 0.5642458100558659,
+ "fast_refills": {
+  "n_within_1h": 23,
+  "n": 35,
+  "eth_drained": 1707.3202589848834,
+  "eth_by_arb": 724.8378285382788,
+  "median_seconds": 12.051890134811401
+ },
+ "robustness_P9": {
+  "placebo_future_state_alone": [
+   62.2,
+   3.46
+  ],
+  "actual_and_placebo": {
+   "actual": [
+    66.4,
+    4.64
+   ],
+   "placebo": [
+    24.0,
+    1.78
+   ]
+  },
+  "non_overlapping_daily": [
+   76.2,
+   3.44,
+   194
+  ],
+  "without_top1pct_mint_hours": [
+   60.5,
+   5.77
+  ],
+  "reverse_mints_to_funded": [
+   0.0001,
+   2.43
+  ]
+ }
+}

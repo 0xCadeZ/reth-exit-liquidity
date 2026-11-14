@@ -46,6 +46,15 @@ from -29.5 bps to +2.6 bps and mints from 21 to 57 rETH per day.
 - **October.** 62,066 ETH was recycled into the deposit pool and 58,528 ETH was assigned to queued validators
   (53,504 on 2026-10-22, queue 2,330 to 663). Burn collateral ended the month at 2,231 ETH. Cause not traced.
 
+## Cause and direction
+
+Full detail in `cause/FINDINGS.md`. Mints supply only 13% of the ETH reaching the buffer; node operators' payouts supply
+81%, so low minting cannot be the main reason it is empty. While rETH trades at a discount, arbitrage burns take each
+arriving ETH, usually within one block: all 16 refills during the 73-day spell were emptied within the hour. Hour by
+hour, a funded buffer predicts about 80 more rETH minted over the next day after controlling for the previous day's
+minting (t 4.7). The reverse effect exists but is small. Two of the four new predictions passed, one failed and one
+could not be tested.
+
 ## Against rival staking tokens and earlier work
 
 The full comparison is in `peers/FINDINGS.md`. In short: when its buffer was funded, rETH stayed within 10 bps of
