@@ -32,8 +32,13 @@ caps the balance at the target after each transaction.
   of one exited validator.
 - During the 73-day empty spell there were 16 refills. All 16 were emptied within the hour, typically in 12 seconds.
   14 of them were taken entirely by arbitrage burns.
-- The spell ended on 2026-10-17 when two 24 ETH payouts landed ten minutes apart and the second one stuck. The DEX
-  price went from -32.5 bps to -1.5 bps within six hours. Mints went from 0 the day before to 44 the day after.
+- The spell ended on 2026-10-17 with a flood, not a trickle. From 15:22 UTC, 293 payouts of about 24 ETH each
+  (7,035 ETH, consistent with one operator exiting a batch of validators) landed over 69 minutes, about one per block.
+  The first 76 were burned as they landed, 1,437 ETH of it by arbitrage. From 15:48 the flow outran the arbitrage and
+  the buffer held; by 17:00 it was at its 1% cap, about 3,690 ETH. The DEX price went from about -32 bps to -1.5 bps
+  within six hours. Mints went from 0 the day before to 44 the day after.
+- Correction, 2026-11-15: an earlier version of this file said the spell ended when "two 24 ETH payouts landed ten
+  minutes apart and the second one stuck". That misread the refill table; the block-level series shows the flood above.
 
 ## The direction test (hourly, 4,654 hours, Newey-West errors over 24 lags)
 
