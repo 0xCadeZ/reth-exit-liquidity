@@ -55,6 +55,14 @@ hour, a funded buffer predicts about 80 more rETH minted over the next day after
 minting (t 4.7). The reverse effect exists but is small. Two of the four new predictions passed, one failed and one
 could not be tested.
 
+## Buffer size
+
+Full detail in `sizing/FINDINGS.md`. The long spell was an inflow drought: ETH into the buffer fell from about 11,000 a
+month in May and June to 3,400-5,000 from July to September, against estimated exit demand of 10,000-12,000. From June
+to September nothing reached the 1% cap, so a higher target alone would have changed nothing. Covering such a drought
+needs ETH held in advance: about 5% of rETH value would have paid every exit on roughly 9 days in 10, at about 11 bps of
+holder yield a year. Saturn 2's queue without forced exits would have left a long tail of waits.
+
 ## Against rival staking tokens and earlier work
 
 The full comparison is in `peers/FINDINGS.md`. In short: when its buffer was funded, rETH stayed within 10 bps of
