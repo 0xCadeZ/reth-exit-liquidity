@@ -1,0 +1,11 @@
+{
+ "rocketTokenRETH": "0xae78736cd615f374d3085123a210448e74fc6393",
+ "rocketDepositPool": "0xce15294273cfb9d9b628f4d61636623decdf4fdc",
+ "rocketNetworkBalances": "0x1d9f14c6bfd8358b589964bad8665add248e9473",
+ "rocketVault": "0x3bdc69c4e5e13e52a65f5583c23efb9636b469d6",
+ "rocketDAOProtocolSettingsDeposit": "0x227be8dd01df8ad9bed0178e4f8cec2996c5c365",
+ "rocketMinipoolQueue": "0x9e966733e3e9bfa56af95f762921859417cf6faa",
+ "rocketDepositPoolQueue": "0x0000000000000000000000000000000000000000",
+ "latest": 26403167,
+ "b_start": 24996368
+}

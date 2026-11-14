@@ -1,0 +1,63 @@
+{
+ "wstETH": {
+  "token": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+  "rate_to": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+  "rate_sig": "stEthPerToken()",
+  "univ3": {
+   "100": "0x109830a1aaad605bbf02a9dfa7b0b92ec2fb7daa",
+   "500": "0xd340b57aacdd10f96fc1cf10e15921936f41e29c",
+   "3000": "0xc12af0c4aa39d3061c56cd3cb19f5e62deeaebde"
+  }
+ },
+ "cbETH": {
+  "token": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
+  "rate_to": "0xbe9895146f7af43049ca1c1ae358b0541ea49704",
+  "rate_sig": "exchangeRate()",
+  "univ3": {
+   "100": "0x177622e79acece98c39f6e12fa78ac7fc8a8bf62",
+   "500": "0x840deeef2f115cf50da625f7368c24af6fe74410",
+   "3000": "0xbea615376d1184f3670a341b70f6f45d9d0fbaad",
+   "10000": "0xa7feefa76274a25951a994bfce790db0a047e2e5"
+  }
+ },
+ "ETHx": {
+  "token": "0xa35b1b31ce002fbf2058d22f30f95d405200a15b",
+  "rate_to": "0xcf5ea1b38380f6af39068375516daf40ed70d299",
+  "rate_sig": "getExchangeRate()",
+  "univ3": {
+   "500": "0x1b9669b12959ad51b01fabcf01eabdfadb82f578"
+  }
+ },
+ "osETH": {
+  "token": "0xf1c9acdc66974dfb6decb12aa385b9cd01190e38",
+  "rate_to": "0x2a261e60fb14586b474c208b1b7ac6d0f5000306",
+  "rate_sig": "convertToAssets(uint256)",
+  "arg": 1000000000000000000,
+  "univ3": {
+   "100": "0xa171797c7a8aa296bda70a4719386ed96ec988a4",
+   "500": "0x96c3acb0f3f523d7bec7df43bdf8ccd8c05d0d3e",
+   "3000": "0x28f049f00396431f47e5d9c51cff99e477a4408f",
+   "10000": "0x055075d1a938e80dcbe73ad14350dbab908eceee"
+  }
+ },
+ "mETH": {
+  "token": "0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+  "rate_to": "0xe3cbd06d7dadb3f4e6557bab7edd924cd1489e8f",
+  "rate_sig": "mETHToETH(uint256)",
+  "arg": 1000000000000000000,
+  "univ3": {
+   "100": "0x021d59d42a237600498e602ac1d8fb07bc21261a",
+   "500": "0x04708077eca6bb527a5bbbd6358ffb043a9c1c14"
+  }
+ },
+ "rETH": {
+  "token": "0xae78736cd615f374d3085123a210448e74fc6393",
+  "rate_to": "0xae78736cd615f374d3085123a210448e74fc6393",
+  "rate_sig": "getExchangeRate()",
+  "univ3": {
+   "100": "0x553e9c493678d8606d6a5ba284643db2110df823",
+   "500": "0xa4e0faa58465a2d369aa21b3e42d43374c6f9613",
+   "3000": "0xf0e02cf61b31260fd5ae527d58be16312bda59b1"
+  }
+ }
+}
